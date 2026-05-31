@@ -1,34 +1,169 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
-<body>
-     <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
-        <div class="container">
-            <a class="navbar-brand fw-bold text-dark" href="#"> Portfolio van Nicolle</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNavbar" aria-controls="portfolioNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="portfolioNavbar">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#aboutme-section">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects-section">Projects & Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacts-section">Contacts</a>
-                    </li>
-                </ul>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-white" href="#">
+          Portfolio van Nicolle</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#portfolioNavbar"
+          aria-controls="portfolioNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="portfolioNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#aboutme-section"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#projects-section"
+                >Projects & Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contacts-section"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="hero-section d-flex justify-content-center align-items-center text-center"
+    >
+      <div class="container px-5">
+        <h1 class="text-white display-3 fw-semibold mb-5">
+          Welcome to My Developer Portfolio
+        </h1>
+        <p class="text-white">
+          This is my personal portfolio, where I document my growth as a
+          developer. Here you’ll find who I am, what I’m working toward, and the
+          projects I’ve created both in school and at home.
+        </p>
+      </div>
+    </div>
+    <section class="about-section py-5">
+      <div class="container-fluid px-5">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-5 text-center mb-5 mb-lg-0">
+            <img
+              src="imgs/me.webp"
+              alt="Portrait"
+              class="about-img img-fluid"
+            />
+          </div>
+
+          <div class="col-lg-7 text-white">
+            <h2 class="display-3 fw-semibold mb-5">About me</h2>
+
+            <p class="about-text mb-5">
+              I am Nicolle Valovičová, I am 16 years old and currently studying
+              Software Development at ROC Mondriaan. My passion for coding began
+              in 2022 when I built my first website. I now have three years of
+              coding experience, mainly with HTML, CSS, and JavaScript.
+            </p>
+
+            <p class="about-text">
+              I am currently building my own company, DMNIC. The idea behind
+              DMNIC is to create digital projects through coding. What sets me
+              apart in this field is that I am always looking for a challenge.
+              The harder, the better.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills-section py-5 text-white">
+
+    <div class="container">
+
+        <h2 class="display-2 text-center mb-4">Skills</h2>
+
+        <p class="text-center fs-4 mb-5">
+            These are the languages and tools I actively use in real projects,
+            what I currently can code with.
+        </p>
+
+        <!-- Current Skills -->
+        <div class="skill-card mb-5">
+            <div class="row justify-content-center text-center gy-4">
+
+                <div class="col-6 col-md-3">
+                    <img src="imgs/css3-02-svgrepo-com.svg" class="skill-icon" alt="CSS">
+                    <h3 class="mt-3">CSS</h3>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img src="imgs" class="skill-icon" alt="HTML">
+                    <h3 class="mt-3">HTML</h3>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img src="imgs/js.svg" class="skill-icon" alt="JavaScript">
+                    <h3 class="mt-3">JavaScript</h3>
+                </div>
+
             </div>
         </div>
-    </nav>
-</body>
+
+        <h2 class="display-2 text-center mb-4">Learning</h2>
+
+        <p class="text-center fs-4 mb-5">
+            I'm currently exploring these languages/skills to use them in the future
+            for work or projects.
+        </p>
+
+        <!-- Learning Skills -->
+        <div class="skill-card">
+            <div class="row justify-content-center text-center gy-4">
+
+                <div class="col-6 col-md-3">
+                    <img src="imgs/csharp.svg" class="skill-icon" alt="C#">
+                    <h3 class="mt-3">C#</h3>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img src="imgs/php.svg" class="skill-icon" alt="PHP">
+                    <h3 class="mt-3">PHP</h3>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <img src="imgs/mysql.svg" class="skill-icon" alt="MySQL">
+                    <h3 class="mt-3">MySQL</h3>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+  </body>
 </html>
