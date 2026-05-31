@@ -47,3 +47,79 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.projects-section {
+  min-height: 100vh;
+}
+
+.project-intro {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-category {
+  margin-top: 220px;
+  margin-bottom: 80px;
+}
+
+.project-card {
+  background: rgba(20, 20, 20, 0.9);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.active-card {
+  border: 2px solid #905bf4;
+}
+
+.project-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  min-height: 95px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #000;
+  margin-right: 4px;
+}
+
+.html {
+  background: #ffbd7a;
+}
+
+.css {
+  background: #80d5f7;
+}
+
+.js {
+  background: #fff176;
+}
+
+.php {
+  background: #a37bff;
+}
+
+@media (max-width: 991px) {
+  .project-category {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+}
