@@ -1,51 +1,50 @@
-:root{
-      --main-bg-color: #000000;
+:root {
+  --main-bg-color: #000000;
 }
-.navbar{
-    background-color: red;
+.navbar {
+  background-color: red;
 }
-body{
-    background-color: var(--main-bg-color);
+body {
+  background-color: var(--main-bg-color);
 }
 /* background image */
 .hero-section {
-    background-color: red;
-    background-image: url('../imgs/bg-imgwebp.webp');
-    background-size: cover;
-    height: 100vh;
+  background-color: red;
+  background-image: url("../imgs/bg-imgwebp.webp");
+  background-size: cover;
+  height: 100vh;
 }
 .skills-section {
-    min-height: 100vh;
-        background-image: url('../imgs/abstract1.webp');
-    background-size: cover;
+  min-height: 100vh;
+  background-image: url("../imgs/abstract1.webp");
+  background-size: cover;
 }
 
 .skill-card {
-    backdrop-filter: blur(10px);
-    background: rgba(0,0,0,0.35);
-    border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 25px;
-    padding: 60px 30px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 25px;
+  padding: 60px 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .skill-icon {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-      filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(86deg) brightness(100%);
-
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(86deg) brightness(100%);
 }
 
 .skill-card h3 {
-    font-size: 2rem;
-    font-weight: 500;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .skills-section p {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .projects-section {
   min-height: 100vh;
@@ -64,7 +63,7 @@ body{
 
 .project-card {
   background: rgba(20, 20, 20, 0.9);
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 14px;
   overflow: hidden;
 }
@@ -125,76 +124,71 @@ body{
 }
 
 .contact-section {
-    min-height: 100vh;
-        background-image: url('../imgs/bgAbstract.webp');
-    background-size: cover;
+  min-height: 100vh;
+  background-image: url("../imgs/bgAbstract.webp");
+  background-size: cover;
 }
 
 .contact-card {
-    background: rgba(0,0,0,0.45);
-    backdrop-filter: blur(12px);
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(12px);
 
-    border: 1px solid rgba(255,255,255,0.15);
-    border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
 
-    padding: 50px;
+  padding: 50px;
 
-    box-shadow:
-        0 0 30px rgba(0,0,0,0.4);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 
 .contact-text {
-    max-width: 400px;
-    font-size: 2rem;
-    font-weight: 500;
+  max-width: 400px;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .custom-input {
-    background: transparent;
-    border: 2px solid rgba(255,255,255,0.25);
-    border-radius: 999px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
 
-    color: white;
-    padding: 12px 20px;
+  color: white;
+  padding: 12px 20px;
 }
 
 .custom-input:focus {
-    background: transparent;
-    color: white;
+  background: transparent;
+  color: white;
 
-    border-color: #905bf4;
-    box-shadow: none;
+  border-color: #905bf4;
+  box-shadow: none;
 }
 
 textarea.custom-input {
-    border-radius: 20px;
-    resize: none;
+  border-radius: 20px;
+  resize: none;
 }
 
 .submit-btn {
-    border: none;
+  border: none;
 
-    background: linear-gradient(
-        90deg,
-        #905bf4,
-        #6f42ff
-    );
+  background: linear-gradient(90deg, #905bf4, #6f42ff);
 
-    color: white;
-    padding: 14px;
+  color: white;
+  padding: 14px;
 
-    border-radius: 999px;
+  border-radius: 999px;
 }
 
 .required {
-    color: #905bf4;
+  color: #905bf4;
 }
 
 .form-label {
-    color: white;
-    margin-bottom: 8px;
+  color: white;
+  margin-bottom: 8px;
 }
 
 .custom-input::placeholder {
-    color: rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
